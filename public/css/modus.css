@@ -1,0 +1,14 @@
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark body {
+    background-color: #444444;
+    color: #e0e0e0;
+}
+.dark .text-yellow-400 {
+    color: #facc15;
+}
